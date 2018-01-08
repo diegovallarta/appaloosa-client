@@ -14,6 +14,10 @@
   ],
   "author": "Diego Vallarta",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diegovallarta/appaloosa-client.git"
+  },
   "dependencies": {
     "request": "^2.83.0",
     "request-promise-native": "^1.0.5"
