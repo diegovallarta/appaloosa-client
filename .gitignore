@@ -1,0 +1,4 @@
+node_modules/
+dist/
+.idea/
+appaloosa-client.iml

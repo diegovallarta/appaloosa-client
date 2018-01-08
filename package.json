@@ -1,0 +1,21 @@
+{
+  "name": "appaloosa-client",
+  "version": "0.1.0",
+  "description": "Node.js client for deploying apps to Appaloosa Store",
+  "main": "index.js",
+  "scripts": {
+    "changes": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "keywords": [
+    "appaloosa",
+    "mobile",
+    "store",
+    "node.js"
+  ],
+  "author": "Diego Vallarta",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
