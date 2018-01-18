@@ -90,11 +90,18 @@ const handleUpdate = (update) => {
 };
 
 const publish = (notification, token, groups, changelog) => {
+    // console.log(notification);
+    // console.log(token);
+    // console.log(changelog);
+    // console.log(groups);
+
     const body = {
         id: notification.id,
         token,
-        changelog,
-        groupNames: groups
+        mobile_application_update: {
+            changelog,
+            group_names:groups
+        }
     };
 
     const options = {
