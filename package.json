@@ -1,6 +1,6 @@
 {
   "name": "appaloosa-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node.js client for deploying apps to Appaloosa Store",
   "main": "index.js",
   "scripts": {
